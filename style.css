@@ -239,17 +239,27 @@
    gap: 80px;
 }
 
-.HKSA{
+.projects-content h3{
+   font-size: 14px;
+   color:rgb(253, 253, 253);
    position:absolute;
    top:400px;
-   right:50px;
+   right:250px;
+   display: flex;
+   gap: 80px;
+}
+
+.HKSA{
+   position:absolute;
+   top:450px;
+   right:400px;
    display: flex;
    gap: 20px;
 }
 
 .HKSA img{
    height: auto;
-   width: 230px;
+   width: 150px;
 }
 
 
