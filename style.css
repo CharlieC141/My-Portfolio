@@ -359,7 +359,7 @@
 /* media query */
     /* Home page */
     
-   @media screen and (max-width:650px)
+  @media screen and (max-width:650px)
    {
 
      
@@ -367,7 +367,7 @@
 
       header .logo img{
          height: auto;
-         width: 90px;
+         width: 150px;
          margin-right: 300px;
          color: #0b0b0c;
          text-decoration: none; 
@@ -380,13 +380,13 @@
          transition: .3s;
          position:absolute;
          display: flex;
-         right: 139px;   
+         right: 80px;   
          
         
       }
       .navbar a{
 
-         font-size: 8px;
+         font-size: 20px;
          color: hsl(0, 0%, 100%);
          text-decoration: none;
          font-weight:  400; 
@@ -405,7 +405,7 @@
       .home-image {
          position:absolute;
          display: flex;
-         right: 190px;   
+         right: 230px;   
          width:200px;
          height:200px;
          background: rgb(41, 39, 39);
@@ -429,24 +429,27 @@
          color:#ffffff;
          text-align: justify; 
          position: absolute;
-         left:-1px;
+         left:180px;
          top: 400px;
       }
 
       .home-content h1{ 
-         font-size: 17px;
+         font-size: 20px;
          line-height: 1.2;
          
          
       }
 
       .home-content h3{
-         font-size: 12px;
+         font-size: 15px;
          color: rgb(250, 66, 66) ;
         
         
       }
    }
+   
+  
+
    
   
 
